@@ -1,0 +1,31 @@
+a{
+			background-color:#94E991;
+		}
+		a:hover {
+			color:#CC0066;
+			text-decoration: none;
+		}
+
+		a:visited {
+			color:#33FFFF;
+		}
+		a:link {
+			color:#FF8000;
+		}
+		a:active {
+			background-color:white;
+		}
+body {
+			background-color:#D8C1F6;
+			font-family:"Comic Sans MS", cursive, sans-serif;
+			}
+p  {
+			line-height:125%;
+			color:green;
+			text-indent:25px;
+			}
+p::first-letter {
+			color: green;
+			font-size: x-large;
+			font-variant: small-caps;
+			}
