@@ -1,0 +1,13 @@
+* {
+    font-family: "Comic Sans MS", cursive, sans-serif;
+}
+li:nth-child(even){
+    color:#41C6B0;
+}
+li:nth-child(odd){
+    color:#C74158;
+}
+h2:not(.comic){
+    color:green;
+    font-family: "Bell MT";
+}
