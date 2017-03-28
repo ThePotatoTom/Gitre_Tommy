@@ -1,5 +1,7 @@
 * {
     font-family: "Comic Sans MS", cursive, sans-serif;
+    margin: 0px;
+    padding: 0px;
 }
 li:nth-child(even){
     color:#41C6B0;
@@ -9,5 +11,66 @@ li:nth-child(odd){
 }
 h2:not(.comic){
     color:green;
-    font-family: "Bell MT";
+    font-family: "Plantagenet Cherokee";
+}
+h1 {
+    font: bold 20px Tahoma;
+    color:#a6cdf4;
+    text-shadow: 1.5px 1.5px 1.5px #c9f8f8;
+}
+header , section , footer , aside , nav , article{
+    display: block;
+}
+body {
+    text-align: center;
+}
+#bigwrapper {
+    border: 2px ridge steelblue;
+    width: 1000px;
+    margin: 15px auto;
+    text-align:left;
+}
+#topheader {
+    background:#f4a6a6;
+    border:2px ridge mediumpurple;
+    padding:20px;
+}
+#topnav {
+    background:#a6f4cd ;
+    color:#f4a6cd ;
+}
+#topnav li {
+    display: inline-block;
+    list-style:none;
+    padding: 5px;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+}
+#mainsection {
+    float: left;
+    width: 660px;
+    margin: 30px; /* 650 total px's, 350 left */
+}
+#side {
+    float:left;
+    width:220px;
+    margin: 15px 0px;
+    padding: 20px;
+    background: #e1c9f8;
+    border: 2px solid #a484c3;
+}
+#pagefooter {
+    clear:both;
+    text-align:center;
+    padding: 20px;
+    border: 2px ridge steelblue;
+}
+article {
+    background:lavenderblush;
+    border: 2px ridge steelblue;
+    padding: 20px;
+    margin-bottom: 15px;
+
+}
+article > footer {
+    text-align: right;
 }
